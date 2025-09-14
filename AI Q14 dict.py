@@ -14,5 +14,5 @@ average=sum(result.values())/len(result)
 Total=sum(result.values())#all money you have made.
 goal_result={k:v  for k,v in result.items() if v > average}    
 print("average of your sell:",round(average,2))
-print("Your result is:",goal_result)
 print("Total sale:",Total)
+
